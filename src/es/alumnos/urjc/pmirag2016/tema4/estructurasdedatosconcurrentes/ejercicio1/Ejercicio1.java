@@ -1,4 +1,4 @@
-package es.alumnos.urjc.pmirag2016.tema4.estructurasdedatosconcurrentes;
+package es.alumnos.urjc.pmirag2016.tema4.estructurasdedatosconcurrentes.ejercicio1;
 
 import java.io.File;
 import java.util.HashMap;
