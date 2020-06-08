@@ -14,11 +14,15 @@ import java.util.Map;
  *
  * Por simplicidad, en la carpeta raíz no hay ficheros y se crearán tantos hilos
  * como carpetas.
+ *
+ * -----------------------------------------------------------------------------
+ *
+ * NOTA: Esto es solo la versión secuencial.
  */
 public class Ejercicio1 {
 
     private static final String PATHNAME = "C:\\Dir";
-    
+
     private static Map<String, String> duplicates = new HashMap<>();
 
     public static void findDuplicates(File root) {
